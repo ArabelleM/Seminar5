@@ -9,7 +9,7 @@ int[] array = new int[arrayLength];
 
 void FillArray(int[] arr) {
     for(int i = 0; i < arr.Length; i++) {
-        arr[i] = new Random().Next(100, 999);
+        arr[i] = new Random().Next(100, 1000);
     }
 }
 
